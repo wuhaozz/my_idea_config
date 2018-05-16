@@ -1,0 +1,978 @@
+07-May-2018 01:12:01.932 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.30
+07-May-2018 01:12:01.935 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 3 2018 20:04:09 UTC
+07-May-2018 01:12:01.935 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.30.0
+07-May-2018 01:12:01.935 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+07-May-2018 01:12:01.935 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-May-2018 01:12:01.935 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-May-2018 01:12:01.936 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\Java\jdk1.8.0_60\jre
+07-May-2018 01:12:01.936 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_60-b27
+07-May-2018 01:12:01.936 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-May-2018 01:12:01.936 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         H:\idea_config\system\tomcat\Unnamed_Spring-Leanring_2
+07-May-2018 01:12:01.936 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Java\apache-tomcat-8.5.30
+07-May-2018 01:12:01.936 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=H:\idea_config\system\tomcat\Unnamed_Spring-Leanring_2\conf\logging.properties
+07-May-2018 01:12:01.936 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-May-2018 01:12:01.936 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote=
+07-May-2018 01:12:01.936 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.port=1099
+07-May-2018 01:12:01.936 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+07-May-2018 01:12:01.937 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.authenticate=false
+07-May-2018 01:12:01.937 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.rmi.server.hostname=127.0.0.1
+07-May-2018 01:12:01.937 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-May-2018 01:12:01.937 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-May-2018 01:12:01.937 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-May-2018 01:12:01.937 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=H:\idea_config\system\tomcat\Unnamed_Spring-Leanring_2
+07-May-2018 01:12:01.937 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Java\apache-tomcat-8.5.30
+07-May-2018 01:12:01.937 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Java\apache-tomcat-8.5.30\temp
+07-May-2018 01:12:01.937 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+07-May-2018 01:12:01.937 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+07-May-2018 01:12:01.937 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-May-2018 01:12:02.680 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+07-May-2018 01:12:03.145 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-May-2018 01:12:03.180 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-May-2018 01:12:03.189 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 01:12:03.196 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-May-2018 01:12:03.196 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2007 ms
+07-May-2018 01:12:03.251 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-May-2018 01:12:03.251 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.30
+07-May-2018 01:12:03.269 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-May-2018 01:12:03.280 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 01:12:03.287 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 89 ms
+07-May-2018 01:12:06.359 信息 [RMI TCP Connection(2)-127.0.0.1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-May-2018 01:12:06.494 信息 [RMI TCP Connection(2)-127.0.0.1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+07-May-2018 01:12:06.634 信息 [RMI TCP Connection(2)-127.0.0.1] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Mon May 07 01:12:06 CST 2018]; root of context hierarchy
+07-May-2018 01:12:06.734 信息 [RMI TCP Connection(2)-127.0.0.1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+07-May-2018 01:12:07.283 信息 [RMI TCP Connection(2)-127.0.0.1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 789 ms
+07-May-2018 01:12:07.377 信息 [RMI TCP Connection(2)-127.0.0.1] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'springMVC': initialization started
+07-May-2018 01:12:07.404 信息 [RMI TCP Connection(2)-127.0.0.1] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon May 07 01:12:07 CST 2018]; parent: Root WebApplicationContext
+07-May-2018 01:12:07.404 信息 [RMI TCP Connection(2)-127.0.0.1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+07-May-2018 01:12:08.465 信息 [RMI TCP Connection(2)-127.0.0.1] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+07-May-2018 01:12:08.608 信息 [RMI TCP Connection(2)-127.0.0.1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/test],methods=[GET]}" onto public java.lang.String com.wuhaozz.controller.HelloController.test()
+07-May-2018 01:12:08.610 信息 [RMI TCP Connection(2)-127.0.0.1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/user],methods=[GET]}" onto public java.lang.String com.wuhaozz.controller.HelloController.user(java.lang.String)
+07-May-2018 01:12:08.610 信息 [RMI TCP Connection(2)-127.0.0.1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.wuhaozz.controller.HelloController.hello(org.springframework.ui.ModelMap)
+07-May-2018 01:12:08.758 信息 [RMI TCP Connection(2)-127.0.0.1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon May 07 01:12:07 CST 2018]; parent: Root WebApplicationContext
+07-May-2018 01:12:08.832 信息 [RMI TCP Connection(2)-127.0.0.1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon May 07 01:12:07 CST 2018]; parent: Root WebApplicationContext
+07-May-2018 01:12:08.931 信息 [RMI TCP Connection(2)-127.0.0.1] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+07-May-2018 01:12:08.934 信息 [RMI TCP Connection(2)-127.0.0.1] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+07-May-2018 01:12:08.936 信息 [RMI TCP Connection(2)-127.0.0.1] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/image/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+07-May-2018 01:12:09.035 信息 [RMI TCP Connection(2)-127.0.0.1] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'springMVC': initialization completed in 1658 ms
+07-May-2018 01:12:13.271 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Java\apache-tomcat-8.5.30\webapps\manager]
+07-May-2018 01:12:13.343 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Java\apache-tomcat-8.5.30\webapps\manager] has finished in [70] ms
+07-May-2018 01:16:27.194 信息 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-May-2018 01:16:27.194 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-May-2018 01:16:27.316 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 01:16:27.436 信息 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-May-2018 01:16:27.442 信息 [localhost-startStop-2] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon May 07 01:12:07 CST 2018]; parent: Root WebApplicationContext
+07-May-2018 01:16:27.449 信息 [localhost-startStop-2] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing Root WebApplicationContext: startup date [Mon May 07 01:12:06 CST 2018]; root of context hierarchy
+07-May-2018 01:16:27.475 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-May-2018 01:16:27.480 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 01:16:27.481 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-May-2018 01:16:27.482 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 01:16:37.776 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.30
+07-May-2018 01:16:37.780 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 3 2018 20:04:09 UTC
+07-May-2018 01:16:37.780 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.30.0
+07-May-2018 01:16:37.780 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+07-May-2018 01:16:37.780 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-May-2018 01:16:37.780 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-May-2018 01:16:37.780 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\Java\jdk1.8.0_60\jre
+07-May-2018 01:16:37.780 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_60-b27
+07-May-2018 01:16:37.780 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-May-2018 01:16:37.780 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         H:\idea_config\system\tomcat\Unnamed_Spring-Leanring_2
+07-May-2018 01:16:37.780 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Java\apache-tomcat-8.5.30
+07-May-2018 01:16:37.781 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=H:\idea_config\system\tomcat\Unnamed_Spring-Leanring_2\conf\logging.properties
+07-May-2018 01:16:37.781 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-May-2018 01:16:37.781 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote=
+07-May-2018 01:16:37.781 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.port=1099
+07-May-2018 01:16:37.781 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+07-May-2018 01:16:37.781 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.authenticate=false
+07-May-2018 01:16:37.781 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.rmi.server.hostname=127.0.0.1
+07-May-2018 01:16:37.781 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-May-2018 01:16:37.781 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-May-2018 01:16:37.781 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-May-2018 01:16:37.781 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=H:\idea_config\system\tomcat\Unnamed_Spring-Leanring_2
+07-May-2018 01:16:37.781 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Java\apache-tomcat-8.5.30
+07-May-2018 01:16:37.781 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Java\apache-tomcat-8.5.30\temp
+07-May-2018 01:16:37.782 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+07-May-2018 01:16:37.782 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+07-May-2018 01:16:37.782 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-May-2018 01:16:38.450 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+07-May-2018 01:16:38.633 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-May-2018 01:16:38.685 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-May-2018 01:16:38.693 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 01:16:38.698 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-May-2018 01:16:38.699 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1267 ms
+07-May-2018 01:16:38.732 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-May-2018 01:16:38.732 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.30
+07-May-2018 01:16:38.748 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-May-2018 01:16:38.759 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 01:16:38.766 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 66 ms
+07-May-2018 01:16:40.613 信息 [RMI TCP Connection(3)-127.0.0.1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-May-2018 01:16:40.733 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+07-May-2018 01:16:40.853 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Mon May 07 01:16:40 CST 2018]; root of context hierarchy
+07-May-2018 01:16:40.957 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+07-May-2018 01:16:41.410 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 677 ms
+07-May-2018 01:16:41.469 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'springMVC': initialization started
+07-May-2018 01:16:41.491 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon May 07 01:16:41 CST 2018]; parent: Root WebApplicationContext
+07-May-2018 01:16:41.491 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+07-May-2018 01:16:42.403 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+07-May-2018 01:16:42.530 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/test],methods=[GET]}" onto public java.lang.String com.wuhaozz.controller.HelloController.test()
+07-May-2018 01:16:42.532 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/user],methods=[GET]}" onto public java.lang.String com.wuhaozz.controller.HelloController.user(java.lang.String)
+07-May-2018 01:16:42.532 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.wuhaozz.controller.HelloController.hello(org.springframework.ui.ModelMap)
+07-May-2018 01:16:42.553 警告 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.support.XmlWebApplicationContext.refresh Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'HelloController' method 
+public java.lang.String com.wuhaozz.controller.HelloController.test()
+to {[/test],methods=[GET]}: There is already 'helloController' bean method
+public java.lang.String com.wuhaozz.controller.HelloController.test() mapped.
+07-May-2018 01:16:42.554 严重 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.DispatcherServlet.initServletBean Context initialization failed
+ org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'HelloController' method 
+public java.lang.String com.wuhaozz.controller.HelloController.test()
+to {[/test],methods=[GET]}: There is already 'helloController' bean method
+public java.lang.String com.wuhaozz.controller.HelloController.test() mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1630)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:668)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:682)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:553)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:171)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1144)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1091)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:983)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4962)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5274)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:754)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:730)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.manageApp(HostConfig.java:1735)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:300)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at org.apache.catalina.mbeans.MBeanFactory.createStandardContext(MBeanFactory.java:482)
+	at org.apache.catalina.mbeans.MBeanFactory.createStandardContext(MBeanFactory.java:431)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:300)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1471)
+	at javax.management.remote.rmi.RMIConnectionImpl.access$300(RMIConnectionImpl.java:76)
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1312)
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1404)
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:832)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:323)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$256(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'HelloController' method 
+public java.lang.String com.wuhaozz.controller.HelloController.test()
+to {[/test],methods=[GET]}: There is already 'helloController' bean method
+public java.lang.String com.wuhaozz.controller.HelloController.test() mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:576)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:540)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:264)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:250)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:214)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1688)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1626)
+	... 64 more
+
+07-May-2018 01:16:48.751 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Java\apache-tomcat-8.5.30\webapps\manager]
+07-May-2018 01:16:48.811 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Java\apache-tomcat-8.5.30\webapps\manager] has finished in [59] ms
+07-May-2018 01:17:16.709 信息 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-May-2018 01:17:16.709 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-May-2018 01:17:16.840 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 01:17:16.964 信息 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-May-2018 01:17:16.972 信息 [localhost-startStop-2] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing Root WebApplicationContext: startup date [Mon May 07 01:16:40 CST 2018]; root of context hierarchy
+07-May-2018 01:17:16.992 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-May-2018 01:17:17.009 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 01:17:17.011 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-May-2018 01:17:17.012 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 01:18:53.277 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.30
+07-May-2018 01:18:53.280 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 3 2018 20:04:09 UTC
+07-May-2018 01:18:53.280 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.30.0
+07-May-2018 01:18:53.280 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+07-May-2018 01:18:53.280 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-May-2018 01:18:53.281 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-May-2018 01:18:53.281 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\Java\jdk1.8.0_60\jre
+07-May-2018 01:18:53.281 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_60-b27
+07-May-2018 01:18:53.281 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-May-2018 01:18:53.281 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         H:\idea_config\system\tomcat\Unnamed_Spring-Leanring_2
+07-May-2018 01:18:53.281 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Java\apache-tomcat-8.5.30
+07-May-2018 01:18:53.281 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=H:\idea_config\system\tomcat\Unnamed_Spring-Leanring_2\conf\logging.properties
+07-May-2018 01:18:53.281 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-May-2018 01:18:53.281 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote=
+07-May-2018 01:18:53.282 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.port=1099
+07-May-2018 01:18:53.282 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+07-May-2018 01:18:53.282 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.authenticate=false
+07-May-2018 01:18:53.282 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.rmi.server.hostname=127.0.0.1
+07-May-2018 01:18:53.282 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-May-2018 01:18:53.282 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-May-2018 01:18:53.282 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-May-2018 01:18:53.282 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=H:\idea_config\system\tomcat\Unnamed_Spring-Leanring_2
+07-May-2018 01:18:53.282 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Java\apache-tomcat-8.5.30
+07-May-2018 01:18:53.282 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Java\apache-tomcat-8.5.30\temp
+07-May-2018 01:18:53.282 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+07-May-2018 01:18:53.282 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+07-May-2018 01:18:53.282 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-May-2018 01:18:53.954 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+07-May-2018 01:18:54.125 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-May-2018 01:18:54.162 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-May-2018 01:18:54.168 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 01:18:54.174 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-May-2018 01:18:54.174 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1200 ms
+07-May-2018 01:18:54.202 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-May-2018 01:18:54.202 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.30
+07-May-2018 01:18:54.212 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-May-2018 01:18:54.226 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 01:18:54.233 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 59 ms
+07-May-2018 01:18:56.142 信息 [RMI TCP Connection(3)-127.0.0.1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-May-2018 01:18:56.302 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+07-May-2018 01:18:56.513 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Mon May 07 01:18:56 CST 2018]; root of context hierarchy
+07-May-2018 01:18:56.715 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+07-May-2018 01:18:57.354 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 1052 ms
+07-May-2018 01:18:57.465 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'springMVC': initialization started
+07-May-2018 01:18:57.490 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon May 07 01:18:57 CST 2018]; parent: Root WebApplicationContext
+07-May-2018 01:18:57.491 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+07-May-2018 01:18:58.452 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+07-May-2018 01:18:58.604 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/test],methods=[GET]}" onto public java.lang.String com.wuhaozz.controller.HelloController.test()
+07-May-2018 01:18:58.606 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.wuhaozz.controller.HelloController.hello(org.springframework.ui.ModelMap)
+07-May-2018 01:18:58.607 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/user],methods=[GET]}" onto public java.lang.String com.wuhaozz.controller.UserController.user(java.lang.String)
+07-May-2018 01:18:58.734 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon May 07 01:18:57 CST 2018]; parent: Root WebApplicationContext
+07-May-2018 01:18:58.809 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon May 07 01:18:57 CST 2018]; parent: Root WebApplicationContext
+07-May-2018 01:18:58.896 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+07-May-2018 01:18:58.902 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+07-May-2018 01:18:58.905 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/image/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+07-May-2018 01:18:59.014 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'springMVC': initialization completed in 1549 ms
+07-May-2018 01:19:04.214 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Java\apache-tomcat-8.5.30\webapps\manager]
+07-May-2018 01:19:04.260 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Java\apache-tomcat-8.5.30\webapps\manager] has finished in [45] ms
+07-May-2018 01:22:28.869 信息 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-May-2018 01:22:28.869 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-May-2018 01:22:28.991 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 01:22:29.107 信息 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-May-2018 01:22:29.110 信息 [localhost-startStop-2] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon May 07 01:18:57 CST 2018]; parent: Root WebApplicationContext
+07-May-2018 01:22:29.116 信息 [localhost-startStop-2] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing Root WebApplicationContext: startup date [Mon May 07 01:18:56 CST 2018]; root of context hierarchy
+07-May-2018 01:22:29.129 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-May-2018 01:22:29.134 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 01:22:29.136 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-May-2018 01:22:29.138 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 01:22:42.685 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.30
+07-May-2018 01:22:42.689 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 3 2018 20:04:09 UTC
+07-May-2018 01:22:42.689 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.30.0
+07-May-2018 01:22:42.689 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+07-May-2018 01:22:42.689 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-May-2018 01:22:42.689 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-May-2018 01:22:42.690 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\Java\jdk1.8.0_60\jre
+07-May-2018 01:22:42.690 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_60-b27
+07-May-2018 01:22:42.690 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-May-2018 01:22:42.690 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         H:\idea_config\system\tomcat\Unnamed_Spring-Leanring_2
+07-May-2018 01:22:42.690 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Java\apache-tomcat-8.5.30
+07-May-2018 01:22:42.690 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=H:\idea_config\system\tomcat\Unnamed_Spring-Leanring_2\conf\logging.properties
+07-May-2018 01:22:42.690 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-May-2018 01:22:42.691 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote=
+07-May-2018 01:22:42.691 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.port=1099
+07-May-2018 01:22:42.691 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+07-May-2018 01:22:42.691 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.authenticate=false
+07-May-2018 01:22:42.691 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.rmi.server.hostname=127.0.0.1
+07-May-2018 01:22:42.691 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-May-2018 01:22:42.691 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-May-2018 01:22:42.691 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-May-2018 01:22:42.691 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=H:\idea_config\system\tomcat\Unnamed_Spring-Leanring_2
+07-May-2018 01:22:42.691 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Java\apache-tomcat-8.5.30
+07-May-2018 01:22:42.692 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Java\apache-tomcat-8.5.30\temp
+07-May-2018 01:22:42.692 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+07-May-2018 01:22:42.692 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+07-May-2018 01:22:42.692 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-May-2018 01:22:43.376 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+07-May-2018 01:22:43.517 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-May-2018 01:22:43.570 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-May-2018 01:22:43.577 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 01:22:43.584 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-May-2018 01:22:43.584 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1214 ms
+07-May-2018 01:22:43.609 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-May-2018 01:22:43.609 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.30
+07-May-2018 01:22:43.621 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-May-2018 01:22:43.632 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 01:22:43.640 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 55 ms
+07-May-2018 01:22:45.572 信息 [RMI TCP Connection(3)-127.0.0.1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-May-2018 01:22:45.677 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+07-May-2018 01:22:45.794 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Mon May 07 01:22:45 CST 2018]; root of context hierarchy
+07-May-2018 01:22:45.898 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+07-May-2018 01:22:46.310 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 633 ms
+07-May-2018 01:22:46.370 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'springMVC': initialization started
+07-May-2018 01:22:46.387 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon May 07 01:22:46 CST 2018]; parent: Root WebApplicationContext
+07-May-2018 01:22:46.388 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+07-May-2018 01:22:47.300 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+07-May-2018 01:22:47.423 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/test],methods=[GET]}" onto public java.lang.String com.wuhaozz.controller.HelloController.test()
+07-May-2018 01:22:47.425 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.wuhaozz.controller.HelloController.hello(org.springframework.ui.ModelMap)
+07-May-2018 01:22:47.425 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/user],methods=[GET]}" onto public java.lang.String com.wuhaozz.controller.UserController.user(java.lang.String)
+07-May-2018 01:22:47.516 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon May 07 01:22:46 CST 2018]; parent: Root WebApplicationContext
+07-May-2018 01:22:47.588 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon May 07 01:22:46 CST 2018]; parent: Root WebApplicationContext
+07-May-2018 01:22:47.657 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+07-May-2018 01:22:47.664 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+07-May-2018 01:22:47.667 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/image/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+07-May-2018 01:22:47.739 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'springMVC': initialization completed in 1368 ms
+07-May-2018 01:22:53.622 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Java\apache-tomcat-8.5.30\webapps\manager]
+07-May-2018 01:22:53.666 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Java\apache-tomcat-8.5.30\webapps\manager] has finished in [43] ms
+07-May-2018 01:30:22.353 信息 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-May-2018 01:30:22.354 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-May-2018 01:30:22.434 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 01:30:22.499 信息 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-May-2018 01:30:22.506 信息 [localhost-startStop-2] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon May 07 01:22:46 CST 2018]; parent: Root WebApplicationContext
+07-May-2018 01:30:22.511 信息 [localhost-startStop-2] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing Root WebApplicationContext: startup date [Mon May 07 01:22:45 CST 2018]; root of context hierarchy
+07-May-2018 01:30:22.527 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-May-2018 01:30:22.530 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 01:30:22.532 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-May-2018 01:30:22.533 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 01:43:36.175 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.30
+07-May-2018 01:43:36.179 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 3 2018 20:04:09 UTC
+07-May-2018 01:43:36.179 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.30.0
+07-May-2018 01:43:36.179 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+07-May-2018 01:43:36.179 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-May-2018 01:43:36.179 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-May-2018 01:43:36.179 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\Java\jdk1.8.0_60\jre
+07-May-2018 01:43:36.180 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_60-b27
+07-May-2018 01:43:36.180 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-May-2018 01:43:36.180 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         H:\idea_config\system\tomcat\Unnamed_Spring-Leanring_2
+07-May-2018 01:43:36.180 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Java\apache-tomcat-8.5.30
+07-May-2018 01:43:36.180 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=H:\idea_config\system\tomcat\Unnamed_Spring-Leanring_2\conf\logging.properties
+07-May-2018 01:43:36.180 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-May-2018 01:43:36.181 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote=
+07-May-2018 01:43:36.181 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.port=1099
+07-May-2018 01:43:36.181 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+07-May-2018 01:43:36.182 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.authenticate=false
+07-May-2018 01:43:36.182 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.rmi.server.hostname=127.0.0.1
+07-May-2018 01:43:36.182 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-May-2018 01:43:36.182 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-May-2018 01:43:36.182 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-May-2018 01:43:36.182 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=H:\idea_config\system\tomcat\Unnamed_Spring-Leanring_2
+07-May-2018 01:43:36.182 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Java\apache-tomcat-8.5.30
+07-May-2018 01:43:36.182 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Java\apache-tomcat-8.5.30\temp
+07-May-2018 01:43:36.182 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+07-May-2018 01:43:36.183 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+07-May-2018 01:43:36.183 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-May-2018 01:43:36.886 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+07-May-2018 01:43:37.041 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-May-2018 01:43:37.077 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-May-2018 01:43:37.082 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 01:43:37.091 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-May-2018 01:43:37.092 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1218 ms
+07-May-2018 01:43:37.115 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-May-2018 01:43:37.115 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.30
+07-May-2018 01:43:37.126 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-May-2018 01:43:37.137 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 01:43:37.146 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 54 ms
+07-May-2018 01:43:39.070 信息 [RMI TCP Connection(3)-127.0.0.1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-May-2018 01:43:39.210 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+07-May-2018 01:43:39.335 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Mon May 07 01:43:39 CST 2018]; root of context hierarchy
+07-May-2018 01:43:39.429 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+07-May-2018 01:43:39.934 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 724 ms
+07-May-2018 01:43:39.994 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'springMVC': initialization started
+07-May-2018 01:43:40.003 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon May 07 01:43:40 CST 2018]; parent: Root WebApplicationContext
+07-May-2018 01:43:40.007 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+07-May-2018 01:43:40.817 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+07-May-2018 01:43:40.946 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/test],methods=[GET]}" onto public java.lang.String com.wuhaozz.controller.HelloController.test()
+07-May-2018 01:43:40.947 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.wuhaozz.controller.HelloController.hello(org.springframework.ui.ModelMap)
+07-May-2018 01:43:40.948 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/user],methods=[GET]}" onto public java.lang.String com.wuhaozz.controller.UserController.user(java.lang.String)
+07-May-2018 01:43:41.038 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon May 07 01:43:40 CST 2018]; parent: Root WebApplicationContext
+07-May-2018 01:43:41.104 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon May 07 01:43:40 CST 2018]; parent: Root WebApplicationContext
+07-May-2018 01:43:41.176 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+07-May-2018 01:43:41.184 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+07-May-2018 01:43:41.192 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/image/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+07-May-2018 01:43:41.264 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'springMVC': initialization completed in 1270 ms
+07-May-2018 01:43:47.131 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Java\apache-tomcat-8.5.30\webapps\manager]
+07-May-2018 01:43:47.172 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Java\apache-tomcat-8.5.30\webapps\manager] has finished in [40] ms
+07-May-2018 01:46:15.784 信息 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-May-2018 01:46:15.784 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-May-2018 01:46:15.863 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 01:46:15.983 信息 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-May-2018 01:46:15.988 信息 [localhost-startStop-2] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon May 07 01:43:40 CST 2018]; parent: Root WebApplicationContext
+07-May-2018 01:46:15.994 信息 [localhost-startStop-2] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing Root WebApplicationContext: startup date [Mon May 07 01:43:39 CST 2018]; root of context hierarchy
+07-May-2018 01:46:16.015 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-May-2018 01:46:16.017 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 01:46:16.019 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-May-2018 01:46:16.021 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 01:46:27.577 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.30
+07-May-2018 01:46:27.580 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 3 2018 20:04:09 UTC
+07-May-2018 01:46:27.580 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.30.0
+07-May-2018 01:46:27.580 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+07-May-2018 01:46:27.580 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-May-2018 01:46:27.580 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-May-2018 01:46:27.580 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\Java\jdk1.8.0_60\jre
+07-May-2018 01:46:27.580 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_60-b27
+07-May-2018 01:46:27.580 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-May-2018 01:46:27.580 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         H:\idea_config\system\tomcat\Unnamed_Spring-Leanring_2
+07-May-2018 01:46:27.580 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Java\apache-tomcat-8.5.30
+07-May-2018 01:46:27.581 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=H:\idea_config\system\tomcat\Unnamed_Spring-Leanring_2\conf\logging.properties
+07-May-2018 01:46:27.581 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-May-2018 01:46:27.581 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote=
+07-May-2018 01:46:27.581 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.port=1099
+07-May-2018 01:46:27.581 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+07-May-2018 01:46:27.581 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.authenticate=false
+07-May-2018 01:46:27.581 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.rmi.server.hostname=127.0.0.1
+07-May-2018 01:46:27.581 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-May-2018 01:46:27.581 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-May-2018 01:46:27.581 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-May-2018 01:46:27.581 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=H:\idea_config\system\tomcat\Unnamed_Spring-Leanring_2
+07-May-2018 01:46:27.581 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Java\apache-tomcat-8.5.30
+07-May-2018 01:46:27.581 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Java\apache-tomcat-8.5.30\temp
+07-May-2018 01:46:27.582 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+07-May-2018 01:46:27.582 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+07-May-2018 01:46:27.582 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-May-2018 01:46:28.260 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+07-May-2018 01:46:28.370 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-May-2018 01:46:28.394 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-May-2018 01:46:28.400 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 01:46:28.407 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-May-2018 01:46:28.407 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1138 ms
+07-May-2018 01:46:28.434 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-May-2018 01:46:28.434 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.30
+07-May-2018 01:46:28.441 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-May-2018 01:46:28.456 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 01:46:28.465 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 57 ms
+07-May-2018 01:46:30.403 信息 [RMI TCP Connection(3)-127.0.0.1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-May-2018 01:46:30.529 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+07-May-2018 01:46:30.641 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Mon May 07 01:46:30 CST 2018]; root of context hierarchy
+07-May-2018 01:46:30.728 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+07-May-2018 01:46:31.134 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 603 ms
+07-May-2018 01:46:31.200 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'springMVC': initialization started
+07-May-2018 01:46:31.213 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon May 07 01:46:31 CST 2018]; parent: Root WebApplicationContext
+07-May-2018 01:46:31.214 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+07-May-2018 01:46:32.103 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+07-May-2018 01:46:32.226 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/test],methods=[GET]}" onto public java.lang.String com.wuhaozz.controller.HelloController.test()
+07-May-2018 01:46:32.228 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.wuhaozz.controller.HelloController.hello(org.springframework.ui.ModelMap)
+07-May-2018 01:46:32.339 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon May 07 01:46:31 CST 2018]; parent: Root WebApplicationContext
+07-May-2018 01:46:32.408 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon May 07 01:46:31 CST 2018]; parent: Root WebApplicationContext
+07-May-2018 01:46:32.486 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+07-May-2018 01:46:32.489 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+07-May-2018 01:46:32.492 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/image/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+07-May-2018 01:46:32.566 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'springMVC': initialization completed in 1365 ms
+07-May-2018 01:46:38.443 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Java\apache-tomcat-8.5.30\webapps\manager]
+07-May-2018 01:46:38.486 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Java\apache-tomcat-8.5.30\webapps\manager] has finished in [41] ms
+07-May-2018 01:47:24.265 信息 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-May-2018 01:47:24.265 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-May-2018 01:47:24.389 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 01:47:24.514 信息 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-May-2018 01:47:24.519 信息 [localhost-startStop-2] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon May 07 01:46:31 CST 2018]; parent: Root WebApplicationContext
+07-May-2018 01:47:24.527 信息 [localhost-startStop-2] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing Root WebApplicationContext: startup date [Mon May 07 01:46:30 CST 2018]; root of context hierarchy
+07-May-2018 01:47:24.547 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-May-2018 01:47:24.554 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 01:47:24.555 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-May-2018 01:47:24.557 信息 [1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 01:52:12.363 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.30
+07-May-2018 01:52:12.366 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 3 2018 20:04:09 UTC
+07-May-2018 01:52:12.366 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.30.0
+07-May-2018 01:52:12.366 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+07-May-2018 01:52:12.366 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-May-2018 01:52:12.367 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-May-2018 01:52:12.367 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\Java\jdk1.8.0_60\jre
+07-May-2018 01:52:12.367 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_60-b27
+07-May-2018 01:52:12.367 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-May-2018 01:52:12.367 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         H:\idea_config\system\tomcat\Unnamed_Spring-Leanring_2
+07-May-2018 01:52:12.367 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Java\apache-tomcat-8.5.30
+07-May-2018 01:52:12.367 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=H:\idea_config\system\tomcat\Unnamed_Spring-Leanring_2\conf\logging.properties
+07-May-2018 01:52:12.367 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-May-2018 01:52:12.367 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote=
+07-May-2018 01:52:12.367 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.port=1099
+07-May-2018 01:52:12.368 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+07-May-2018 01:52:12.368 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.authenticate=false
+07-May-2018 01:52:12.368 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.rmi.server.hostname=127.0.0.1
+07-May-2018 01:52:12.368 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-May-2018 01:52:12.368 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-May-2018 01:52:12.368 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-May-2018 01:52:12.368 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=H:\idea_config\system\tomcat\Unnamed_Spring-Leanring_2
+07-May-2018 01:52:12.368 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Java\apache-tomcat-8.5.30
+07-May-2018 01:52:12.368 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Java\apache-tomcat-8.5.30\temp
+07-May-2018 01:52:12.368 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+07-May-2018 01:52:12.368 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+07-May-2018 01:52:12.368 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-May-2018 01:52:13.085 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+07-May-2018 01:52:13.204 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-May-2018 01:52:13.250 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-May-2018 01:52:13.261 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 01:52:13.267 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-May-2018 01:52:13.267 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1233 ms
+07-May-2018 01:52:13.292 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-May-2018 01:52:13.292 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.30
+07-May-2018 01:52:13.302 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-May-2018 01:52:13.314 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 01:52:13.325 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 57 ms
+07-May-2018 01:52:15.232 信息 [RMI TCP Connection(3)-127.0.0.1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-May-2018 01:52:15.371 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+07-May-2018 01:52:15.495 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Mon May 07 01:52:15 CST 2018]; root of context hierarchy
+07-May-2018 01:52:15.590 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+07-May-2018 01:52:15.992 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 621 ms
+07-May-2018 01:52:16.042 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'springMVC': initialization started
+07-May-2018 01:52:16.052 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon May 07 01:52:16 CST 2018]; parent: Root WebApplicationContext
+07-May-2018 01:52:16.054 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+07-May-2018 01:52:16.931 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+07-May-2018 01:52:17.054 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/test],methods=[GET]}" onto public java.lang.String com.wuhaozz.controller.HelloController.test()
+07-May-2018 01:52:17.056 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.wuhaozz.controller.HelloController.hello(org.springframework.ui.ModelMap)
+07-May-2018 01:52:17.056 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/user],methods=[GET]}" onto public java.lang.String com.wuhaozz.controller.UserController.user(java.lang.String)
+07-May-2018 01:52:17.153 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon May 07 01:52:16 CST 2018]; parent: Root WebApplicationContext
+07-May-2018 01:52:17.226 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon May 07 01:52:16 CST 2018]; parent: Root WebApplicationContext
+07-May-2018 01:52:17.306 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+07-May-2018 01:52:17.308 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+07-May-2018 01:52:17.311 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/image/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+07-May-2018 01:52:17.379 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'springMVC': initialization completed in 1334 ms
+07-May-2018 01:52:23.304 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Java\apache-tomcat-8.5.30\webapps\manager]
+07-May-2018 01:52:23.346 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Java\apache-tomcat-8.5.30\webapps\manager] has finished in [41] ms
+07-May-2018 01:54:10.001 信息 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-May-2018 01:54:10.001 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-May-2018 01:54:10.128 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 01:54:10.248 信息 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-May-2018 01:54:10.251 信息 [localhost-startStop-2] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon May 07 01:52:16 CST 2018]; parent: Root WebApplicationContext
+07-May-2018 01:54:10.258 信息 [localhost-startStop-2] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing Root WebApplicationContext: startup date [Mon May 07 01:52:15 CST 2018]; root of context hierarchy
+07-May-2018 01:54:10.276 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-May-2018 01:54:10.278 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 01:54:10.279 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-May-2018 01:54:10.280 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 01:54:23.563 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.30
+07-May-2018 01:54:23.568 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 3 2018 20:04:09 UTC
+07-May-2018 01:54:23.568 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.30.0
+07-May-2018 01:54:23.568 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+07-May-2018 01:54:23.568 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-May-2018 01:54:23.568 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-May-2018 01:54:23.568 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\Java\jdk1.8.0_60\jre
+07-May-2018 01:54:23.568 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_60-b27
+07-May-2018 01:54:23.568 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-May-2018 01:54:23.568 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         H:\idea_config\system\tomcat\Unnamed_Spring-Leanring_2
+07-May-2018 01:54:23.568 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Java\apache-tomcat-8.5.30
+07-May-2018 01:54:23.569 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=H:\idea_config\system\tomcat\Unnamed_Spring-Leanring_2\conf\logging.properties
+07-May-2018 01:54:23.569 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-May-2018 01:54:23.569 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote=
+07-May-2018 01:54:23.569 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.port=1099
+07-May-2018 01:54:23.569 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+07-May-2018 01:54:23.569 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.authenticate=false
+07-May-2018 01:54:23.569 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.rmi.server.hostname=127.0.0.1
+07-May-2018 01:54:23.569 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-May-2018 01:54:23.569 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-May-2018 01:54:23.569 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-May-2018 01:54:23.569 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=H:\idea_config\system\tomcat\Unnamed_Spring-Leanring_2
+07-May-2018 01:54:23.570 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Java\apache-tomcat-8.5.30
+07-May-2018 01:54:23.570 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Java\apache-tomcat-8.5.30\temp
+07-May-2018 01:54:23.570 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+07-May-2018 01:54:23.570 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+07-May-2018 01:54:23.570 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-May-2018 01:54:24.303 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+07-May-2018 01:54:24.422 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-May-2018 01:54:24.450 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-May-2018 01:54:24.466 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 01:54:24.478 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-May-2018 01:54:24.479 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1264 ms
+07-May-2018 01:54:24.531 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-May-2018 01:54:24.532 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.30
+07-May-2018 01:54:24.557 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-May-2018 01:54:24.574 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 01:54:24.582 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 103 ms
+07-May-2018 01:54:26.416 信息 [RMI TCP Connection(3)-127.0.0.1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-May-2018 01:54:26.518 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+07-May-2018 01:54:26.665 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Mon May 07 01:54:26 CST 2018]; root of context hierarchy
+07-May-2018 01:54:26.754 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+07-May-2018 01:54:27.191 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 673 ms
+07-May-2018 01:54:27.241 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'springMVC': initialization started
+07-May-2018 01:54:27.249 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon May 07 01:54:27 CST 2018]; parent: Root WebApplicationContext
+07-May-2018 01:54:27.250 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+07-May-2018 01:54:28.135 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+07-May-2018 01:54:28.253 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/test],methods=[GET]}" onto public java.lang.String com.wuhaozz.controller.HelloController.test()
+07-May-2018 01:54:28.255 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.wuhaozz.controller.HelloController.hello(org.springframework.ui.ModelMap)
+07-May-2018 01:54:28.256 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/user],methods=[GET]}" onto public java.lang.String com.wuhaozz.controller.UserController.user(java.lang.String)
+07-May-2018 01:54:28.353 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon May 07 01:54:27 CST 2018]; parent: Root WebApplicationContext
+07-May-2018 01:54:28.423 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon May 07 01:54:27 CST 2018]; parent: Root WebApplicationContext
+07-May-2018 01:54:28.498 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+07-May-2018 01:54:28.504 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+07-May-2018 01:54:28.507 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/image/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+07-May-2018 01:54:28.579 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'springMVC': initialization completed in 1338 ms
+07-May-2018 01:54:34.572 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Java\apache-tomcat-8.5.30\webapps\manager]
+07-May-2018 01:54:34.620 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Java\apache-tomcat-8.5.30\webapps\manager] has finished in [46] ms
+07-May-2018 01:55:53.611 信息 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-May-2018 01:55:53.611 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-May-2018 01:55:53.742 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 01:55:53.863 信息 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-May-2018 01:55:53.867 信息 [localhost-startStop-2] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon May 07 01:54:27 CST 2018]; parent: Root WebApplicationContext
+07-May-2018 01:55:53.873 信息 [localhost-startStop-2] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing Root WebApplicationContext: startup date [Mon May 07 01:54:26 CST 2018]; root of context hierarchy
+07-May-2018 01:55:53.891 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-May-2018 01:55:53.894 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 01:55:53.895 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-May-2018 01:55:53.896 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 01:58:32.478 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.30
+07-May-2018 01:58:32.481 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 3 2018 20:04:09 UTC
+07-May-2018 01:58:32.481 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.30.0
+07-May-2018 01:58:32.481 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+07-May-2018 01:58:32.481 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-May-2018 01:58:32.481 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-May-2018 01:58:32.481 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\Java\jdk1.8.0_60\jre
+07-May-2018 01:58:32.481 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_60-b27
+07-May-2018 01:58:32.481 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-May-2018 01:58:32.481 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         H:\idea_config\system\tomcat\Unnamed_Spring-Leanring_2
+07-May-2018 01:58:32.481 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Java\apache-tomcat-8.5.30
+07-May-2018 01:58:32.481 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=H:\idea_config\system\tomcat\Unnamed_Spring-Leanring_2\conf\logging.properties
+07-May-2018 01:58:32.482 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-May-2018 01:58:32.482 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote=
+07-May-2018 01:58:32.482 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.port=1099
+07-May-2018 01:58:32.482 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+07-May-2018 01:58:32.482 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.authenticate=false
+07-May-2018 01:58:32.482 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.rmi.server.hostname=127.0.0.1
+07-May-2018 01:58:32.482 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-May-2018 01:58:32.482 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-May-2018 01:58:32.482 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-May-2018 01:58:32.483 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=H:\idea_config\system\tomcat\Unnamed_Spring-Leanring_2
+07-May-2018 01:58:32.483 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Java\apache-tomcat-8.5.30
+07-May-2018 01:58:32.483 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Java\apache-tomcat-8.5.30\temp
+07-May-2018 01:58:32.483 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+07-May-2018 01:58:32.483 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+07-May-2018 01:58:32.483 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-May-2018 01:58:33.219 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+07-May-2018 01:58:33.351 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-May-2018 01:58:33.381 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-May-2018 01:58:33.388 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 01:58:33.396 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-May-2018 01:58:33.396 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1261 ms
+07-May-2018 01:58:33.434 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-May-2018 01:58:33.435 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.30
+07-May-2018 01:58:33.446 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-May-2018 01:58:33.462 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 01:58:33.470 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 73 ms
+07-May-2018 01:58:35.293 信息 [RMI TCP Connection(3)-127.0.0.1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-May-2018 01:58:35.434 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+07-May-2018 01:58:35.554 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Mon May 07 01:58:35 CST 2018]; root of context hierarchy
+07-May-2018 01:58:35.641 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+07-May-2018 01:58:36.043 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 608 ms
+07-May-2018 01:58:36.118 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'springMVC': initialization started
+07-May-2018 01:58:36.126 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon May 07 01:58:36 CST 2018]; parent: Root WebApplicationContext
+07-May-2018 01:58:36.127 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+07-May-2018 01:58:37.193 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+07-May-2018 01:58:37.316 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/test],methods=[GET]}" onto public java.lang.String com.wuhaozz.controller.HelloController.test()
+07-May-2018 01:58:37.318 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.wuhaozz.controller.HelloController.hello(org.springframework.ui.ModelMap)
+07-May-2018 01:58:37.318 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/user],methods=[GET]}" onto public java.lang.String com.wuhaozz.controller.UserController.user(java.lang.String)
+07-May-2018 01:58:37.322 警告 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.support.XmlWebApplicationContext.refresh Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'UserController' method 
+public java.lang.String com.wuhaozz.controller.UserController.user(java.lang.String)
+to {[/user],methods=[GET]}: There is already 'userController' bean method
+public java.lang.String com.wuhaozz.controller.UserController.user(java.lang.String) mapped.
+07-May-2018 01:58:37.323 严重 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.DispatcherServlet.initServletBean Context initialization failed
+ org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'UserController' method 
+public java.lang.String com.wuhaozz.controller.UserController.user(java.lang.String)
+to {[/user],methods=[GET]}: There is already 'userController' bean method
+public java.lang.String com.wuhaozz.controller.UserController.user(java.lang.String) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1630)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:668)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:682)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:553)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:171)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1144)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1091)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:983)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4962)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5274)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:754)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:730)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.manageApp(HostConfig.java:1735)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:300)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at org.apache.catalina.mbeans.MBeanFactory.createStandardContext(MBeanFactory.java:482)
+	at org.apache.catalina.mbeans.MBeanFactory.createStandardContext(MBeanFactory.java:431)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:300)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1471)
+	at javax.management.remote.rmi.RMIConnectionImpl.access$300(RMIConnectionImpl.java:76)
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1312)
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1404)
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:832)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:323)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$256(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'UserController' method 
+public java.lang.String com.wuhaozz.controller.UserController.user(java.lang.String)
+to {[/user],methods=[GET]}: There is already 'userController' bean method
+public java.lang.String com.wuhaozz.controller.UserController.user(java.lang.String) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:576)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:540)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:264)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:250)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:214)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1688)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1626)
+	... 64 more
+
+07-May-2018 01:58:41.074 信息 [http-nio-8080-exec-4] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'springMVC': initialization started
+07-May-2018 01:58:41.075 信息 [http-nio-8080-exec-4] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon May 07 01:58:41 CST 2018]; parent: Root WebApplicationContext
+07-May-2018 01:58:41.076 信息 [http-nio-8080-exec-4] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+07-May-2018 01:58:41.394 信息 [http-nio-8080-exec-4] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+07-May-2018 01:58:41.468 信息 [http-nio-8080-exec-4] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/test],methods=[GET]}" onto public java.lang.String com.wuhaozz.controller.HelloController.test()
+07-May-2018 01:58:41.468 信息 [http-nio-8080-exec-4] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.wuhaozz.controller.HelloController.hello(org.springframework.ui.ModelMap)
+07-May-2018 01:58:41.469 信息 [http-nio-8080-exec-4] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/user],methods=[GET]}" onto public java.lang.String com.wuhaozz.controller.UserController.user(java.lang.String)
+07-May-2018 01:58:41.470 警告 [http-nio-8080-exec-4] org.springframework.web.context.support.XmlWebApplicationContext.refresh Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'UserController' method 
+public java.lang.String com.wuhaozz.controller.UserController.user(java.lang.String)
+to {[/user],methods=[GET]}: There is already 'userController' bean method
+public java.lang.String com.wuhaozz.controller.UserController.user(java.lang.String) mapped.
+07-May-2018 01:58:41.490 严重 [http-nio-8080-exec-4] org.springframework.web.servlet.DispatcherServlet.initServletBean Context initialization failed
+ org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'UserController' method 
+public java.lang.String com.wuhaozz.controller.UserController.user(java.lang.String)
+to {[/user],methods=[GET]}: There is already 'userController' bean method
+public java.lang.String com.wuhaozz.controller.UserController.user(java.lang.String) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1630)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:668)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:682)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:553)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:171)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1144)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1091)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:773)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:133)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'UserController' method 
+public java.lang.String com.wuhaozz.controller.UserController.user(java.lang.String)
+to {[/user],methods=[GET]}: There is already 'userController' bean method
+public java.lang.String com.wuhaozz.controller.UserController.user(java.lang.String) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:576)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:540)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:264)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:250)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:214)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1688)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1626)
+	... 36 more
+
+07-May-2018 01:58:43.447 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Java\apache-tomcat-8.5.30\webapps\manager]
+07-May-2018 01:58:43.486 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Java\apache-tomcat-8.5.30\webapps\manager] has finished in [37] ms
+07-May-2018 01:58:56.652 信息 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-May-2018 01:58:56.652 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-May-2018 01:58:56.786 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 01:58:56.924 信息 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-May-2018 01:58:56.933 信息 [localhost-startStop-2] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing Root WebApplicationContext: startup date [Mon May 07 01:58:35 CST 2018]; root of context hierarchy
+07-May-2018 01:58:56.953 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-May-2018 01:58:56.956 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 01:58:56.957 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-May-2018 01:58:56.959 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 01:59:07.629 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.30
+07-May-2018 01:59:07.633 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 3 2018 20:04:09 UTC
+07-May-2018 01:59:07.633 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.30.0
+07-May-2018 01:59:07.633 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+07-May-2018 01:59:07.634 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-May-2018 01:59:07.634 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-May-2018 01:59:07.634 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\Java\jdk1.8.0_60\jre
+07-May-2018 01:59:07.634 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_60-b27
+07-May-2018 01:59:07.634 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-May-2018 01:59:07.635 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         H:\idea_config\system\tomcat\Unnamed_Spring-Leanring_2
+07-May-2018 01:59:07.635 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Java\apache-tomcat-8.5.30
+07-May-2018 01:59:07.635 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=H:\idea_config\system\tomcat\Unnamed_Spring-Leanring_2\conf\logging.properties
+07-May-2018 01:59:07.635 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-May-2018 01:59:07.635 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote=
+07-May-2018 01:59:07.635 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.port=1099
+07-May-2018 01:59:07.635 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+07-May-2018 01:59:07.635 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.authenticate=false
+07-May-2018 01:59:07.635 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.rmi.server.hostname=127.0.0.1
+07-May-2018 01:59:07.636 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-May-2018 01:59:07.636 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-May-2018 01:59:07.636 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-May-2018 01:59:07.636 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=H:\idea_config\system\tomcat\Unnamed_Spring-Leanring_2
+07-May-2018 01:59:07.636 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Java\apache-tomcat-8.5.30
+07-May-2018 01:59:07.636 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Java\apache-tomcat-8.5.30\temp
+07-May-2018 01:59:07.636 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+07-May-2018 01:59:07.637 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+07-May-2018 01:59:07.637 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-May-2018 01:59:08.313 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+07-May-2018 01:59:08.446 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-May-2018 01:59:08.474 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-May-2018 01:59:08.480 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 01:59:08.494 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-May-2018 01:59:08.495 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1262 ms
+07-May-2018 01:59:08.519 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-May-2018 01:59:08.519 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.30
+07-May-2018 01:59:08.544 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-May-2018 01:59:08.566 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 01:59:08.575 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 79 ms
+07-May-2018 01:59:10.352 信息 [RMI TCP Connection(3)-127.0.0.1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-May-2018 01:59:10.469 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+07-May-2018 01:59:10.611 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Mon May 07 01:59:10 CST 2018]; root of context hierarchy
+07-May-2018 01:59:10.702 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+07-May-2018 01:59:11.111 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 642 ms
+07-May-2018 01:59:11.179 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'springMVC': initialization started
+07-May-2018 01:59:11.196 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon May 07 01:59:11 CST 2018]; parent: Root WebApplicationContext
+07-May-2018 01:59:11.196 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+07-May-2018 01:59:12.146 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+07-May-2018 01:59:12.293 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/test],methods=[GET]}" onto public java.lang.String com.wuhaozz.controller.HelloController.test()
+07-May-2018 01:59:12.295 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.wuhaozz.controller.HelloController.hello(org.springframework.ui.ModelMap)
+07-May-2018 01:59:12.391 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon May 07 01:59:11 CST 2018]; parent: Root WebApplicationContext
+07-May-2018 01:59:12.454 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon May 07 01:59:11 CST 2018]; parent: Root WebApplicationContext
+07-May-2018 01:59:12.540 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+07-May-2018 01:59:12.543 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+07-May-2018 01:59:12.546 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/image/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+07-May-2018 01:59:12.628 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'springMVC': initialization completed in 1448 ms
+07-May-2018 01:59:18.548 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Java\apache-tomcat-8.5.30\webapps\manager]
+07-May-2018 01:59:18.596 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Java\apache-tomcat-8.5.30\webapps\manager] has finished in [46] ms
+07-May-2018 02:01:42.765 信息 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-May-2018 02:01:42.766 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-May-2018 02:01:42.892 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 02:01:43.015 信息 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-May-2018 02:01:43.019 信息 [localhost-startStop-2] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon May 07 01:59:11 CST 2018]; parent: Root WebApplicationContext
+07-May-2018 02:01:43.026 信息 [localhost-startStop-2] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing Root WebApplicationContext: startup date [Mon May 07 01:59:10 CST 2018]; root of context hierarchy
+07-May-2018 02:01:43.043 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-May-2018 02:01:43.045 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 02:01:43.047 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-May-2018 02:01:43.048 信息 [1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 02:01:53.109 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.30
+07-May-2018 02:01:53.112 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 3 2018 20:04:09 UTC
+07-May-2018 02:01:53.112 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.30.0
+07-May-2018 02:01:53.112 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+07-May-2018 02:01:53.112 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-May-2018 02:01:53.112 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-May-2018 02:01:53.112 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\Java\jdk1.8.0_60\jre
+07-May-2018 02:01:53.112 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_60-b27
+07-May-2018 02:01:53.112 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-May-2018 02:01:53.112 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         H:\idea_config\system\tomcat\Unnamed_Spring-Leanring_2
+07-May-2018 02:01:53.112 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Java\apache-tomcat-8.5.30
+07-May-2018 02:01:53.112 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=H:\idea_config\system\tomcat\Unnamed_Spring-Leanring_2\conf\logging.properties
+07-May-2018 02:01:53.113 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-May-2018 02:01:53.113 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote=
+07-May-2018 02:01:53.113 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.port=1099
+07-May-2018 02:01:53.113 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+07-May-2018 02:01:53.113 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.authenticate=false
+07-May-2018 02:01:53.113 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.rmi.server.hostname=127.0.0.1
+07-May-2018 02:01:53.113 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-May-2018 02:01:53.113 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-May-2018 02:01:53.113 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-May-2018 02:01:53.113 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=H:\idea_config\system\tomcat\Unnamed_Spring-Leanring_2
+07-May-2018 02:01:53.113 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Java\apache-tomcat-8.5.30
+07-May-2018 02:01:53.113 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Java\apache-tomcat-8.5.30\temp
+07-May-2018 02:01:53.113 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+07-May-2018 02:01:53.113 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+07-May-2018 02:01:53.114 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-May-2018 02:01:53.929 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+07-May-2018 02:01:54.045 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-May-2018 02:01:54.079 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-May-2018 02:01:54.096 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 02:01:54.106 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-May-2018 02:01:54.107 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1308 ms
+07-May-2018 02:01:54.134 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-May-2018 02:01:54.134 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.30
+07-May-2018 02:01:54.144 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-May-2018 02:01:54.157 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 02:01:54.163 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 55 ms
+07-May-2018 02:01:56.019 信息 [RMI TCP Connection(3)-127.0.0.1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-May-2018 02:01:56.151 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+07-May-2018 02:01:56.272 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Mon May 07 02:01:56 CST 2018]; root of context hierarchy
+07-May-2018 02:01:56.423 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+07-May-2018 02:01:56.862 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 711 ms
+07-May-2018 02:01:56.930 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'springMVC': initialization started
+07-May-2018 02:01:56.944 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon May 07 02:01:56 CST 2018]; parent: Root WebApplicationContext
+07-May-2018 02:01:56.945 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+07-May-2018 02:01:57.850 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+07-May-2018 02:01:57.895 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping.registerHandler Mapped URL path [/user] onto handler '/user'
+07-May-2018 02:01:57.986 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/test],methods=[GET]}" onto public java.lang.String com.wuhaozz.controller.HelloController.test()
+07-May-2018 02:01:57.988 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.wuhaozz.controller.HelloController.hello(org.springframework.ui.ModelMap)
+07-May-2018 02:01:58.104 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon May 07 02:01:56 CST 2018]; parent: Root WebApplicationContext
+07-May-2018 02:01:58.185 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon May 07 02:01:56 CST 2018]; parent: Root WebApplicationContext
+07-May-2018 02:01:58.267 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+07-May-2018 02:01:58.273 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+07-May-2018 02:01:58.276 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/image/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+07-May-2018 02:01:58.353 信息 [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'springMVC': initialization completed in 1422 ms
+07-May-2018 02:02:04.145 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Java\apache-tomcat-8.5.30\webapps\manager]
+07-May-2018 02:02:04.205 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Java\apache-tomcat-8.5.30\webapps\manager] has finished in [59] ms
+07-May-2018 02:04:20.687 信息 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-May-2018 02:04:20.687 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-May-2018 02:04:20.816 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 02:04:20.936 信息 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-May-2018 02:04:20.941 信息 [localhost-startStop-2] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing WebApplicationContext for namespace 'springMVC-servlet': startup date [Mon May 07 02:01:56 CST 2018]; parent: Root WebApplicationContext
+07-May-2018 02:04:20.946 信息 [localhost-startStop-2] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing Root WebApplicationContext: startup date [Mon May 07 02:01:56 CST 2018]; root of context hierarchy
+07-May-2018 02:04:20.962 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-May-2018 02:04:20.964 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+07-May-2018 02:04:20.966 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-May-2018 02:04:20.968 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

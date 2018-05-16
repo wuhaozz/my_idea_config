@@ -1,0 +1,10 @@
+<Context path="/ROOT" reloadable="true" docBase="C:\Users\sky\Desktop\zhdx\ecupl-wsdx\ecupl-wsdx-main\src\main\webapp" workDir="C:\Users\sky\Desktop\zhdx\ecupl-wsdx\ecupl-wsdx-main\work" >
+	<Loader className="org.apache.catalina.loader.DevLoader" reloadable="true" debug="1" useSystemClassLoaderAsParent="false" />
+<!-- Extra info begin -->
+<Resource auth="Container" description="test" name="jdbc/dataSource"
+type="javax.sql.DataSource" driverClassName="oracle.jdbc.driver.OracleDriver"
+url="jdbc:oracle:thin:@localhost:1521:xe"
+username="zhdx1" password="123456"/>
+<!-- Extra info end -->
+	<Logger className="org.apache.catalina.logger.SystemOutLogger" verbosity="4" timestamp="true"/>
+</Context>

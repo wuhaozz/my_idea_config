@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="android-module-to-java-module" />
+    <converter id="android-proguard-options" />
+    <converter id="android-sdk-library" />
+    <converter id="build-jar-configurations-to-artifacts" />
+    <converter id="detach-cdi-facet-from-module" />
+    <converter id="detach-jsf-facet-from-module" />
+    <converter id="google-app-engine-facet" />
+    <converter id="groovy-modules-to-facets" />
+    <converter id="groovy-script-run-configurations" />
+    <converter id="gwt-packaging" />
+    <converter id="javaee-module-to-facets" />
+    <converter id="javaee-packaging-to-artifacts" />
+    <converter id="js-debug-configuration-converter" />
+    <converter id="js-predefined-libraries-merged" />
+    <converter id="junit-to-android-junit-configurations" />
+    <converter id="nodejs-remote-debug-configuration-converter" />
+  </applied-converters>
+  <project-files>
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\compiler.xml" timestamp="1525931900065" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\encodings.xml" timestamp="1525931900204" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__antlr_antlr_2_7_7.xml" timestamp="1525847024141" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__aopalliance_aopalliance_1_0.xml" timestamp="1525847024176" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__ch_qos_logback_logback_classic_1_1_11.xml" timestamp="1525847343174" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__ch_qos_logback_logback_core_1_1_11.xml" timestamp="1525847343205" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__com_ecwid_consul_consul_api_1_2_2.xml" timestamp="1525848616199" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__com_fasterxml_classmate_1_3_3.xml" timestamp="1525847343245" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" timestamp="1525847343280" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__com_fasterxml_jackson_core_jackson_core_2_8_8.xml" timestamp="1525847343309" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__com_fasterxml_jackson_core_jackson_databind_2_8_8.xml" timestamp="1525847343344" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_8_8.xml" timestamp="1525847343376" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_8_8.xml" timestamp="1525931951723" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_8_8.xml" timestamp="1525847343411" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" timestamp="1525847024561" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__com_google_code_findbugs_jsr305_3_0_1.xml" timestamp="1525847024586" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__com_google_code_gson_gson_2_8_0.xml" timestamp="1525847343441" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__com_google_guava_guava_18_0.xml" timestamp="1525847024672" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__com_google_inject_guice_4_1_0.xml" timestamp="1525847024712" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__com_googlecode_javaewah_JavaEWAH_1_1_6.xml" timestamp="1525880490588" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__com_jayway_jsonpath_json_path_2_2_0.xml" timestamp="1525847343476" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__com_jcraft_jsch_0_1_53.xml" timestamp="1525880490625" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__com_netflix_archaius_archaius_core_0_7_4.xml" timestamp="1525847024753" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__com_netflix_eureka_eureka_client_1_6_2.xml" timestamp="1525847024795" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__com_netflix_eureka_eureka_core_1_6_2.xml" timestamp="1525847024834" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__com_netflix_hystrix_hystrix_core_1_5_12.xml" timestamp="1525847024867" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__com_netflix_hystrix_hystrix_javanica_1_5_12.xml" timestamp="1525931951765" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_12.xml" timestamp="1525931951793" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__com_netflix_hystrix_hystrix_serialization_1_5_12.xml" timestamp="1525931951824" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__com_netflix_netflix_commons_netflix_commons_util_0_1_1.xml" timestamp="1525847024902" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__com_netflix_netflix_commons_netflix_eventbus_0_3_0.xml" timestamp="1525847024931" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__com_netflix_netflix_commons_netflix_infix_0_3_0.xml" timestamp="1525847024974" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" timestamp="1525847025003" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__com_netflix_ribbon_ribbon_2_2_2.xml" timestamp="1525847025033" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__com_netflix_ribbon_ribbon_core_2_2_2.xml" timestamp="1525847025059" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__com_netflix_ribbon_ribbon_eureka_2_2_2.xml" timestamp="1525847025084" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__com_netflix_ribbon_ribbon_httpclient_2_2_2.xml" timestamp="1525847025122" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__com_netflix_ribbon_ribbon_loadbalancer_2_2_2.xml" timestamp="1525847025149" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__com_netflix_ribbon_ribbon_transport_2_2_2.xml" timestamp="1525847025189" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__com_netflix_servo_servo_core_0_10_1.xml" timestamp="1525847025218" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__com_netflix_servo_servo_internal_0_10_1.xml" timestamp="1525847025250" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" timestamp="1525847025284" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__com_sun_jersey_jersey_client_1_19_1.xml" timestamp="1525847025317" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__com_sun_jersey_jersey_core_1_19_1.xml" timestamp="1525847025354" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__com_sun_jersey_jersey_server_1_19_1.xml" timestamp="1525847025403" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__com_sun_jersey_jersey_servlet_1_19_1.xml" timestamp="1525847025445" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__com_thoughtworks_xstream_xstream_1_4_9.xml" timestamp="1525847025478" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" timestamp="1525847079982" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__commons_codec_commons_codec_1_10.xml" timestamp="1525847343510" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__commons_collections_commons_collections_3_2_2.xml" timestamp="1525847343541" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__commons_configuration_commons_configuration_1_8.xml" timestamp="1525847025569" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__commons_jxpath_commons_jxpath_1_3.xml" timestamp="1525847025602" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__commons_lang_commons_lang_2_6.xml" timestamp="1525847025635" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__io_github_openfeign_feign_core_9_5_0.xml" timestamp="1525857987223" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__io_github_openfeign_feign_hystrix_9_5_0.xml" timestamp="1525857987256" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__io_github_openfeign_feign_slf4j_9_5_0.xml" timestamp="1525857987284" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__io_netty_netty_buffer_4_0_27_Final.xml" timestamp="1525847343567" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__io_netty_netty_codec_4_0_27_Final.xml" timestamp="1525847343600" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__io_netty_netty_codec_http_4_0_27_Final.xml" timestamp="1525847343627" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__io_netty_netty_common_4_0_27_Final.xml" timestamp="1525847343660" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__io_netty_netty_handler_4_0_27_Final.xml" timestamp="1525847343700" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__io_netty_netty_transport_4_0_27_Final.xml" timestamp="1525847343728" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__io_netty_netty_transport_native_epoll_4_0_27_Final.xml" timestamp="1525847343765" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__io_reactivex_rxjava_1_1_10.xml" timestamp="1525847343801" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__io_reactivex_rxnetty_0_4_9.xml" timestamp="1525847025999" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" timestamp="1525847026040" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__io_reactivex_rxnetty_servo_0_4_9.xml" timestamp="1525847026079" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__javax_inject_javax_inject_1.xml" timestamp="1525847026108" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__javax_validation_validation_api_1_1_0_Final.xml" timestamp="1525847343831" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__javax_ws_rs_jsr311_api_1_1_1.xml" timestamp="1525847026186" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__javax_xml_stream_stax_api_1_0_2.xml" timestamp="1525847026233" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__joda_time_joda_time_2_9_9.xml" timestamp="1525847026271" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__junit_junit_4_12.xml" timestamp="1525847080015" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__net_minidev_accessors_smart_1_1.xml" timestamp="1525847343863" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__net_minidev_json_smart_2_2_1.xml" timestamp="1525847343901" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_antlr_antlr_runtime_3_4.xml" timestamp="1525847026320" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_antlr_stringtemplate_3_2_1.xml" timestamp="1525847026364" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_apache_commons_commons_lang3_3_1.xml" timestamp="1525931951854" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_apache_commons_commons_math_2_2.xml" timestamp="1525847026397" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" timestamp="1525847343931" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" timestamp="1525847343960" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_15.xml" timestamp="1525847344000" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_15.xml" timestamp="1525847344029" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_15.xml" timestamp="1525847344067" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_aspectj_aspectjweaver_1_8_10.xml" timestamp="1525931951893" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_assertj_assertj_core_2_6_0.xml" timestamp="1525847344103" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_bouncycastle_bcpkix_jdk15on_1_55.xml" timestamp="1525847026644" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_bouncycastle_bcprov_jdk15on_1_55.xml" timestamp="1525847026685" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_codehaus_jettison_jettison_1_3_7.xml" timestamp="1525847026715" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" timestamp="1525847026743" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" timestamp="1525847026785" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_eclipse_jgit_org_eclipse_jgit_4_6_0_201612231935_r.xml" timestamp="1525880490670" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_freemarker_freemarker_2_3_26_incubating.xml" timestamp="1525847344134" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_hamcrest_hamcrest_core_1_3.xml" timestamp="1525847080289" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_hamcrest_hamcrest_library_1_3.xml" timestamp="1525847080341" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" timestamp="1525847344162" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_hibernate_hibernate_validator_5_3_5_Final.xml" timestamp="1525847344202" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_jboss_logging_jboss_logging_3_3_1_Final.xml" timestamp="1525847344231" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_jvnet_animal_sniffer_annotation_1_0.xml" timestamp="1525857987315" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_mockito_mockito_core_1_10_19.xml" timestamp="1525847344262" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_objenesis_objenesis_2_1.xml" timestamp="1525847344303" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_ow2_asm_asm_5_0_3.xml" timestamp="1525847344349" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_ow2_asm_asm_5_0_4.xml" timestamp="1525931900931" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_skyscreamer_jsonassert_1_4_0.xml" timestamp="1525847344385" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" timestamp="1525847344435" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" timestamp="1525846449888" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" timestamp="1525847344467" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_slf4j_slf4j_api_1_7_25.xml" timestamp="1525846449928" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_springframework_boot_spring_boot_1_5_4_RELEASE.xml" timestamp="1525847344511" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_springframework_boot_spring_boot_actuator_1_5_4_RELEASE.xml" timestamp="1525847344551" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_4_RELEASE.xml" timestamp="1525847344585" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_springframework_boot_spring_boot_starter_1_5_4_RELEASE.xml" timestamp="1525847344626" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_springframework_boot_spring_boot_starter_actuator_1_5_4_RELEASE.xml" timestamp="1525847344655" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_springframework_boot_spring_boot_starter_freemarker_1_5_4_RELEASE.xml" timestamp="1525847344687" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_springframework_boot_spring_boot_starter_logging_1_5_4_RELEASE.xml" timestamp="1525847344739" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_springframework_boot_spring_boot_starter_test_1_5_4_RELEASE.xml" timestamp="1525847344772" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_4_RELEASE.xml" timestamp="1525847344800" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_springframework_boot_spring_boot_starter_web_1_5_4_RELEASE.xml" timestamp="1525847344869" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_springframework_boot_spring_boot_test_1_5_4_RELEASE.xml" timestamp="1525847344976" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_4_RELEASE.xml" timestamp="1525847345014" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_springframework_cloud_spring_cloud_commons_1_1_7_RELEASE.xml" timestamp="1525881846543" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_springframework_cloud_spring_cloud_commons_1_2_2_RELEASE.xml" timestamp="1525847027245" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_springframework_cloud_spring_cloud_config_client_1_2_2_RELEASE.xml" timestamp="1525881846575" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_springframework_cloud_spring_cloud_config_client_1_3_1_RELEASE.xml" timestamp="1525880490709" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_springframework_cloud_spring_cloud_config_server_1_3_1_RELEASE.xml" timestamp="1525880490746" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_springframework_cloud_spring_cloud_consul_core_1_2_1_RELEASE.xml" timestamp="1525848616232" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_springframework_cloud_spring_cloud_consul_discovery_1_2_1_RELEASE.xml" timestamp="1525848616270" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_springframework_cloud_spring_cloud_context_1_1_7_RELEASE.xml" timestamp="1525881846610" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_springframework_cloud_spring_cloud_context_1_2_2_RELEASE.xml" timestamp="1525847027284" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_springframework_cloud_spring_cloud_netflix_core_1_3_1_RELEASE.xml" timestamp="1525847027317" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_1_3_1_RELEASE.xml" timestamp="1525847027344" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_1_3_1_RELEASE.xml" timestamp="1525847027378" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_springframework_cloud_spring_cloud_starter_1_1_7_RELEASE.xml" timestamp="1525881846639" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_springframework_cloud_spring_cloud_starter_1_2_2_RELEASE.xml" timestamp="1525847027401" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_springframework_cloud_spring_cloud_starter_archaius_1_3_1_RELEASE.xml" timestamp="1525847027436" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_springframework_cloud_spring_cloud_starter_config_1_2_2_RELEASE.xml" timestamp="1525881846672" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_springframework_cloud_spring_cloud_starter_consul_1_2_1_RELEASE.xml" timestamp="1525848616309" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_springframework_cloud_spring_cloud_starter_consul_discovery_1_2_1_RELEASE.xml" timestamp="1525848616340" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_springframework_cloud_spring_cloud_starter_eureka_1_3_1_RELEASE.xml" timestamp="1525847857797" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_springframework_cloud_spring_cloud_starter_eureka_server_1_3_1_RELEASE.xml" timestamp="1525847027483" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_springframework_cloud_spring_cloud_starter_feign_1_3_1_RELEASE.xml" timestamp="1525857987351" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_springframework_cloud_spring_cloud_starter_hystrix_1_3_1_RELEASE.xml" timestamp="1525931951925" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_springframework_cloud_spring_cloud_starter_ribbon_1_3_1_RELEASE.xml" timestamp="1525847027516" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_springframework_security_spring_security_crypto_4_2_3_RELEASE.xml" timestamp="1525847345051" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_springframework_security_spring_security_rsa_1_0_3_RELEASE.xml" timestamp="1525847027573" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_springframework_spring_aop_4_3_9_RELEASE.xml" timestamp="1525847345095" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_springframework_spring_beans_4_3_9_RELEASE.xml" timestamp="1525847345127" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_springframework_spring_context_4_3_9_RELEASE.xml" timestamp="1525847345152" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_springframework_spring_context_support_4_3_9_RELEASE.xml" timestamp="1525847345186" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_springframework_spring_core_4_3_9_RELEASE.xml" timestamp="1525847345210" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_springframework_spring_expression_4_3_9_RELEASE.xml" timestamp="1525847345237" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_springframework_spring_test_4_3_9_RELEASE.xml" timestamp="1525847345267" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_springframework_spring_web_4_3_9_RELEASE.xml" timestamp="1525847345304" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_springframework_spring_webmvc_4_3_9_RELEASE.xml" timestamp="1525847345338" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__org_yaml_snakeyaml_1_17.xml" timestamp="1525847345368" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__stax_stax_api_1_0_1.xml" timestamp="1525847027710" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__xmlpull_xmlpull_1_1_3_1.xml" timestamp="1525847027753" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\libraries\Maven__xpp3_xpp3_min_1_1_4c.xml" timestamp="1525847027803" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\misc.xml" timestamp="1525931900090" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\modules.xml" timestamp="1525931900233" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\uiDesigner.xml" timestamp="1525846828800" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\vcs.xml" timestamp="1525876341763" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\.idea\workspace.xml" timestamp="1526288604985" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\config-client\config-client.iml" timestamp="1525881846470" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\config-server-git\config-server-git.iml" timestamp="1525881128116" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\consul-client\consul-client.iml" timestamp="1525848616133" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\eureka-client\eureka-client.iml" timestamp="1525847857642" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\eureka-consumer-feign\eureka-consumer-feign.iml" timestamp="1525857987167" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\eureka-consumer-ribbon-hystrix\eureka-consumer-ribbon-hystrix.iml" timestamp="1525931951669" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\eureka-consumer-ribbon\eureka-consumer-ribbon.iml" timestamp="1525857127841" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\eureka-consumer\eureka-consumer.iml" timestamp="1525856422976" />
+    <file path="D:\Work\IdeaProjects\SpringCloudLearning\eureka-server\eureka-server.iml" timestamp="1525847343117" />
+  </project-files>
+</conversion>
+

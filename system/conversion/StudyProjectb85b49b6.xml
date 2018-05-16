@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="android-module-to-java-module" />
+    <converter id="android-proguard-options" />
+    <converter id="android-sdk-library" />
+    <converter id="build-jar-configurations-to-artifacts" />
+    <converter id="detach-cdi-facet-from-module" />
+    <converter id="detach-jsf-facet-from-module" />
+    <converter id="google-app-engine-facet" />
+    <converter id="groovy-modules-to-facets" />
+    <converter id="groovy-script-run-configurations" />
+    <converter id="gwt-packaging" />
+    <converter id="javaee-module-to-facets" />
+    <converter id="javaee-packaging-to-artifacts" />
+    <converter id="js-debug-configuration-converter" />
+    <converter id="js-predefined-libraries-merged" />
+    <converter id="junit-to-android-junit-configurations" />
+    <converter id="nodejs-remote-debug-configuration-converter" />
+  </applied-converters>
+  <project-files>
+    <file path="D:\Work\IdeaProjects\StudyProject\.idea\artifacts\MVCFramework_war.xml" timestamp="1522995458325" />
+    <file path="D:\Work\IdeaProjects\StudyProject\.idea\artifacts\MVCFramework_war_exploded.xml" timestamp="1522995458364" />
+    <file path="D:\Work\IdeaProjects\StudyProject\.idea\artifacts\SpringMVCDemo_war_exploded.xml" timestamp="1522809813079" />
+    <file path="D:\Work\IdeaProjects\StudyProject\.idea\artifacts\SpringMVCDemo_war_exploded2.xml" timestamp="1522809813103" />
+    <file path="D:\Work\IdeaProjects\StudyProject\.idea\codeStyles\codeStyleConfig.xml" timestamp="1523198488909" />
+    <file path="D:\Work\IdeaProjects\StudyProject\.idea\compiler.xml" timestamp="1524159572837" />
+    <file path="D:\Work\IdeaProjects\StudyProject\.idea\dictionaries\wuhaozz.xml" timestamp="1523450850041" />
+    <file path="D:\Work\IdeaProjects\StudyProject\.idea\encodings.xml" timestamp="1523436372843" />
+    <file path="D:\Work\IdeaProjects\StudyProject\.idea\inspectionProfiles\Project_Default.xml" timestamp="1523450849931" />
+    <file path="D:\Work\IdeaProjects\StudyProject\.idea\libraries\Maven__com_101tec_zkclient_0_10.xml" timestamp="1520960564159" />
+    <file path="D:\Work\IdeaProjects\StudyProject\.idea\libraries\Maven__io_netty_netty_3_7_0_Final.xml" timestamp="1520960564193" />
+    <file path="D:\Work\IdeaProjects\StudyProject\.idea\libraries\Maven__javax_servlet_servlet_api_2_4.xml" timestamp="1522995389571" />
+    <file path="D:\Work\IdeaProjects\StudyProject\.idea\libraries\Maven__jline_jline_0_9_94.xml" timestamp="1520960564243" />
+    <file path="D:\Work\IdeaProjects\StudyProject\.idea\libraries\Maven__junit_junit_4_12.xml" timestamp="1522232702908" />
+    <file path="D:\Work\IdeaProjects\StudyProject\.idea\libraries\Maven__log4j_log4j_1_2_16.xml" timestamp="1520960564293" />
+    <file path="D:\Work\IdeaProjects\StudyProject\.idea\libraries\Maven__org_apache_commons_commons_pool2_2_4_2.xml" timestamp="1522233886577" />
+    <file path="D:\Work\IdeaProjects\StudyProject\.idea\libraries\Maven__org_apache_zookeeper_zookeeper_3_4_8.xml" timestamp="1520960564329" />
+    <file path="D:\Work\IdeaProjects\StudyProject\.idea\libraries\Maven__org_hamcrest_hamcrest_core_1_3.xml" timestamp="1522232703096" />
+    <file path="D:\Work\IdeaProjects\StudyProject\.idea\libraries\Maven__org_slf4j_slf4j_api_1_6_1.xml" timestamp="1520960564360" />
+    <file path="D:\Work\IdeaProjects\StudyProject\.idea\libraries\Maven__org_slf4j_slf4j_log4j12_1_6_1.xml" timestamp="1520960564412" />
+    <file path="D:\Work\IdeaProjects\StudyProject\.idea\libraries\Maven__redis_clients_jedis_2_9_0.xml" timestamp="1522233886602" />
+    <file path="D:\Work\IdeaProjects\StudyProject\.idea\misc.xml" timestamp="1524159572884" />
+    <file path="D:\Work\IdeaProjects\StudyProject\.idea\modules.xml" timestamp="1524159572975" />
+    <file path="D:\Work\IdeaProjects\StudyProject\.idea\uiDesigner.xml" timestamp="1521299916952" />
+    <file path="D:\Work\IdeaProjects\StudyProject\.idea\vcs.xml" timestamp="1523427502037" />
+    <file path="D:\Work\IdeaProjects\StudyProject\.idea\workspace.xml" timestamp="1526317367465" />
+    <file path="D:\Work\IdeaProjects\StudyProject\Algorithm\Algorithm.iml" timestamp="1523439003287" />
+    <file path="D:\Work\IdeaProjects\StudyProject\MVCFramework\MVCFramework.iml" timestamp="1523204223855" />
+    <file path="D:\Work\IdeaProjects\StudyProject\RedisClient\RedisClient.iml" timestamp="1522260035144" />
+    <file path="D:\Work\IdeaProjects\StudyProject\ZkDistributedLock\ZkDistributedLock.iml" timestamp="1520960564081" />
+  </project-files>
+</conversion>
+

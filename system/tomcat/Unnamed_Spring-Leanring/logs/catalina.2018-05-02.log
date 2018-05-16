@@ -1,0 +1,36 @@
+五月 02, 2018 4:48:22 下午 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Java\jdk1.8.0_60\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;D:\oracle\wuhaozz\product\instantclient_11_2;D:\oracle\wuhaozz\OraHome_1;D:\Java\jdk1.8.0_60\bin;D:\Java\jdk1.8.0_60\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Microsoft SQL Server (x86)\110\Tools\Binn\;D:\Microsoft SQL Server\110\Tools\Binn\;D:\Microsoft SQL Server\110\DTS\Binn\;D:\Microsoft SQL Server (x86)\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;D:\Microsoft SQL Server (x86)\110\DTS\Binn\;D:\MySQL\MySQL Server 5.7\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\TortoiseSVN\bin;D:\Work\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;E:\Microsoft VS Code\bin;C:\Users\sky\AppData\Local\GitHubDesktop\bin;.
+五月 02, 2018 4:48:23 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8888"]
+五月 02, 2018 4:48:23 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+五月 02, 2018 4:48:23 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 986 ms
+五月 02, 2018 4:48:23 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+五月 02, 2018 4:48:23 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.52
+五月 02, 2018 4:48:23 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8888"]
+五月 02, 2018 4:48:23 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+五月 02, 2018 4:48:23 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 39 ms
+五月 02, 2018 4:48:24 下午 org.apache.catalina.deploy.WebXml setVersion
+警告: Unknown version string [3.1]. Default version will be used.
+五月 02, 2018 4:49:32 下午 org.apache.catalina.core.StandardServer await
+信息: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+五月 02, 2018 4:49:32 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-bio-8888"]
+五月 02, 2018 4:49:32 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["ajp-bio-8009"]
+五月 02, 2018 4:49:32 下午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service Catalina
+五月 02, 2018 4:49:32 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-bio-8888"]
+五月 02, 2018 4:49:32 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["ajp-bio-8009"]
+五月 02, 2018 4:49:32 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-bio-8888"]
+五月 02, 2018 4:49:32 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["ajp-bio-8009"]

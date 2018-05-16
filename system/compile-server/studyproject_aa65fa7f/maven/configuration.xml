@@ -1,0 +1,220 @@
+<maven-project-configuration>
+  <resource-processing>
+    <maven-module name="MVCFramework">
+      <MavenModuleResourceConfiguration>
+        <id>
+          <MavenIdBean>
+            <groupId>com.wuhaozz</groupId>
+            <artifactId>MVCFramework</artifactId>
+            <version>1.0-SNAPSHOT</version>
+          </MavenIdBean>
+        </id>
+        <parentId />
+        <directory>D:/Work/IdeaProjects/StudyProject/MVCFramework</directory>
+        <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQpCdWlsdC1CeTogd3VoYW96eg0KQ3JlYXRlZC1CeTogSW50ZWxsaUogSURFQQ0KQnVpbGQtSmRrOiAxLjguMF82MA0KDQo=</manifest>
+        <classpath>servlet-api-2.4.jar</classpath>
+        <delimiters-pattern>\$\{(.+?)\}|@(.+?)@</delimiters-pattern>
+        <model-map>
+          <entry key="artifactId" value="MVCFramework" />
+          <entry key="build.directory" value="D:\Work\IdeaProjects\StudyProject\MVCFramework\target" />
+          <entry key="build.finalName" value="MVCFramework-1.0-SNAPSHOT" />
+          <entry key="build.outputDirectory" value="D:\Work\IdeaProjects\StudyProject\MVCFramework\target\classes" />
+          <entry key="build.plugin.maven-ear-plugin.skinnyWars" value="false" />
+          <entry key="build.scriptSourceDirectory" value="D:\Work\IdeaProjects\StudyProject\MVCFramework\src\main\scripts" />
+          <entry key="build.sourceDirectory" value="D:\Work\IdeaProjects\StudyProject\MVCFramework\src\main\java" />
+          <entry key="build.testOutputDirectory" value="D:\Work\IdeaProjects\StudyProject\MVCFramework\target\test-classes" />
+          <entry key="build.testSourceDirectory" value="D:\Work\IdeaProjects\StudyProject\MVCFramework\src\test\java" />
+          <entry key="groupId" value="com.wuhaozz" />
+          <entry key="modelEncoding" value="UTF-8" />
+          <entry key="modelVersion" value="4.0.0" />
+          <entry key="packaging" value="war" />
+          <entry key="pomFile" value="D:\Work\IdeaProjects\StudyProject\MVCFramework\pom.xml" />
+          <entry key="reporting.outputDirectory" value="D:\Work\IdeaProjects\StudyProject\MVCFramework\target\site" />
+          <entry key="version" value="1.0-SNAPSHOT" />
+        </model-map>
+        <properties>
+          <entry key="java.home" value="D:/Java/jdk1.8.0_60/jre" />
+          <entry key="java.version" value="java version &quot;1.8.0_60&quot;" />
+          <entry key="maven.compiler.compilerVersion" value="1.8" />
+          <entry key="maven.compiler.source" value="1.8" />
+          <entry key="maven.compiler.target" value="1.8" />
+          <entry key="project.build.sourceEncoding" value="UTF-8" />
+          <entry key="project.reporting.outputEncoding" value="UTF-8" />
+          <entry key="settings.localRepository" value="D:\Java\repository" />
+        </properties>
+        <filtering-excluded-extensions />
+        <option name="escapeString" />
+        <option name="escapeWindowsPaths" value="true" />
+        <option name="overwrite" value="false" />
+        <option name="outputDirectory" />
+        <option name="testOutputDirectory" />
+        <resources>
+          <resource filtered="false">
+            <directory>D:/Work/IdeaProjects/StudyProject/MVCFramework/src/main/resources</directory>
+            <targetPath />
+            <includes />
+            <excludes />
+          </resource>
+        </resources>
+        <test-resources>
+          <resource filtered="false">
+            <directory>D:/Work/IdeaProjects/StudyProject/MVCFramework/src/test/resources</directory>
+            <targetPath />
+            <includes />
+            <excludes />
+          </resource>
+        </test-resources>
+      </MavenModuleResourceConfiguration>
+    </maven-module>
+    <maven-module name="RedisClient">
+      <MavenModuleResourceConfiguration>
+        <id>
+          <MavenIdBean>
+            <groupId>com.wuhaozz</groupId>
+            <artifactId>RedisClient</artifactId>
+            <version>1.0-SNAPSHOT</version>
+          </MavenIdBean>
+        </id>
+        <parentId />
+        <directory>D:/Work/IdeaProjects/StudyProject/RedisClient</directory>
+        <manifest />
+        <classpath />
+        <delimiters-pattern>\$\{(.+?)\}|@(.+?)@</delimiters-pattern>
+        <model-map>
+          <entry key="artifactId" value="RedisClient" />
+          <entry key="build.defaultGoal" value="install" />
+          <entry key="build.directory" value="D:\Work\IdeaProjects\StudyProject\RedisClient\target" />
+          <entry key="build.finalName" value="RedisClient-1.0-SNAPSHOT" />
+          <entry key="build.outputDirectory" value="D:\Work\IdeaProjects\StudyProject\RedisClient\target\classes" />
+          <entry key="build.plugin.maven-ear-plugin.skinnyWars" value="false" />
+          <entry key="build.scriptSourceDirectory" value="D:\Work\IdeaProjects\StudyProject\RedisClient\src\main\scripts" />
+          <entry key="build.sourceDirectory" value="D:\Work\IdeaProjects\StudyProject\RedisClient\src\main\java" />
+          <entry key="build.testOutputDirectory" value="D:\Work\IdeaProjects\StudyProject\RedisClient\target\test-classes" />
+          <entry key="build.testSourceDirectory" value="D:\Work\IdeaProjects\StudyProject\RedisClient\src\test\java" />
+          <entry key="groupId" value="com.wuhaozz" />
+          <entry key="modelEncoding" value="UTF-8" />
+          <entry key="modelVersion" value="4.0.0" />
+          <entry key="name" value="RedisClient" />
+          <entry key="packaging" value="pom" />
+          <entry key="pomFile" value="D:\Work\IdeaProjects\StudyProject\RedisClient\pom.xml" />
+          <entry key="reporting.outputDirectory" value="D:\Work\IdeaProjects\StudyProject\RedisClient\target\site" />
+          <entry key="version" value="1.0-SNAPSHOT" />
+        </model-map>
+        <properties>
+          <entry key="java.home" value="D:/Java/jdk1.8.0_60/jre" />
+          <entry key="java.version" value="java version &quot;1.8.0_60&quot;" />
+          <entry key="maven.compiler.compilerVersion" value="1.8" />
+          <entry key="maven.compiler.source" value="1.8" />
+          <entry key="maven.compiler.target" value="1.8" />
+          <entry key="project.build.sourceEncoding" value="UTF-8" />
+          <entry key="project.reporting.outputEncoding" value="UTF-8" />
+          <entry key="settings.localRepository" value="D:\Java\repository" />
+        </properties>
+        <filtering-excluded-extensions />
+        <option name="escapeString" />
+        <option name="escapeWindowsPaths" value="true" />
+        <option name="overwrite" value="false" />
+        <option name="outputDirectory" />
+        <option name="testOutputDirectory" />
+        <resources>
+          <resource filtered="false">
+            <directory>D:/Work/IdeaProjects/StudyProject/RedisClient/src/main/resources</directory>
+            <targetPath />
+            <includes />
+            <excludes />
+          </resource>
+        </resources>
+        <test-resources>
+          <resource filtered="false">
+            <directory>D:/Work/IdeaProjects/StudyProject/RedisClient/src/test/resources</directory>
+            <targetPath />
+            <includes />
+            <excludes />
+          </resource>
+        </test-resources>
+      </MavenModuleResourceConfiguration>
+    </maven-module>
+    <maven-module name="ZkDistributedLock">
+      <MavenModuleResourceConfiguration>
+        <id>
+          <MavenIdBean>
+            <groupId>com.wuhaozz</groupId>
+            <artifactId>zkLock</artifactId>
+            <version>1.0-SNAPSHOT</version>
+          </MavenIdBean>
+        </id>
+        <parentId />
+        <directory>D:/Work/IdeaProjects/StudyProject/ZkDistributedLock</directory>
+        <manifest />
+        <classpath />
+        <delimiters-pattern>\$\{(.+?)\}|@(.+?)@</delimiters-pattern>
+        <model-map>
+          <entry key="artifactId" value="zkLock" />
+          <entry key="build.directory" value="D:\Work\IdeaProjects\StudyProject\ZkDistributedLock\target" />
+          <entry key="build.finalName" value="zkLock-1.0-SNAPSHOT" />
+          <entry key="build.outputDirectory" value="D:\Work\IdeaProjects\StudyProject\ZkDistributedLock\target\classes" />
+          <entry key="build.plugin.maven-ear-plugin.skinnyWars" value="false" />
+          <entry key="build.scriptSourceDirectory" value="D:\Work\IdeaProjects\StudyProject\ZkDistributedLock\src\main\scripts" />
+          <entry key="build.sourceDirectory" value="D:\Work\IdeaProjects\StudyProject\ZkDistributedLock\src\main\java" />
+          <entry key="build.testOutputDirectory" value="D:\Work\IdeaProjects\StudyProject\ZkDistributedLock\target\test-classes" />
+          <entry key="build.testSourceDirectory" value="D:\Work\IdeaProjects\StudyProject\ZkDistributedLock\src\test\java" />
+          <entry key="groupId" value="com.wuhaozz" />
+          <entry key="modelEncoding" value="UTF-8" />
+          <entry key="modelVersion" value="4.0.0" />
+          <entry key="packaging" value="pom" />
+          <entry key="pomFile" value="D:\Work\IdeaProjects\StudyProject\ZkDistributedLock\pom.xml" />
+          <entry key="reporting.outputDirectory" value="D:\Work\IdeaProjects\StudyProject\ZkDistributedLock\target\site" />
+          <entry key="version" value="1.0-SNAPSHOT" />
+        </model-map>
+        <properties>
+          <entry key="java.home" value="D:/Java/jdk1.8.0_60/jre" />
+          <entry key="java.version" value="java version &quot;1.8.0_60&quot;" />
+          <entry key="maven.compiler.compilerVersion" value="1.8" />
+          <entry key="maven.compiler.source" value="1.8" />
+          <entry key="maven.compiler.target" value="1.8" />
+          <entry key="settings.localRepository" value="D:\Java\repository" />
+        </properties>
+        <filtering-excluded-extensions />
+        <option name="escapeString" />
+        <option name="escapeWindowsPaths" value="true" />
+        <option name="overwrite" value="false" />
+        <option name="outputDirectory" />
+        <option name="testOutputDirectory" />
+        <resources>
+          <resource filtered="false">
+            <directory>D:/Work/IdeaProjects/StudyProject/ZkDistributedLock/src/main/resources</directory>
+            <targetPath />
+            <includes />
+            <excludes />
+          </resource>
+          <resource filtered="false">
+            <directory>D:/Work/IdeaProjects/StudyProject/ZkDistributedLock/src</directory>
+            <targetPath>D:/Work/IdeaProjects/StudyProject/ZkDistributedLock/target/classes</targetPath>
+            <includes />
+            <excludes>
+              <pattern value="**/*.aj" />
+              <pattern value="**/*.class" />
+              <pattern value="**/*.clj" />
+              <pattern value="**/*.flex" />
+              <pattern value="**/*.form" />
+              <pattern value="**/*.groovy" />
+              <pattern value="**/*.java" />
+              <pattern value="**/*.kt" />
+              <pattern value="**/*.scala" />
+            </excludes>
+          </resource>
+        </resources>
+        <test-resources>
+          <resource filtered="false">
+            <directory>D:/Work/IdeaProjects/StudyProject/ZkDistributedLock/src/test/resources</directory>
+            <targetPath />
+            <includes />
+            <excludes />
+          </resource>
+        </test-resources>
+      </MavenModuleResourceConfiguration>
+    </maven-module>
+  </resource-processing>
+  <web-artifact-cfg />
+  <ejb-client-artifact-cfg />
+</maven-project-configuration>

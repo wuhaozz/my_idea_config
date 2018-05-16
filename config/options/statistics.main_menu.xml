@@ -1,0 +1,38 @@
+<application>
+  <component name="MainMenuCollector">
+    <counts>
+      <entry path="Build -&gt; Build Module" count="1" />
+      <entry path="Build -&gt; Rebuild" count="1" />
+      <entry path="Code -&gt; Auto-Indent Lines" count="1" />
+      <entry path="Code -&gt; Generate..." count="1" />
+      <entry path="Code -&gt; Reformat Code" count="3" />
+      <entry path="File -&gt; Close Project" count="1" />
+      <entry path="File -&gt; Import Settings..." count="1" />
+      <entry path="File -&gt; New -&gt; Module from Existing Sources..." count="2" />
+      <entry path="File -&gt; New -&gt; Module..." count="5" />
+      <entry path="File -&gt; New -&gt; Project from Existing Sources..." count="1" />
+      <entry path="File -&gt; New -&gt; Project..." count="5" />
+      <entry path="File -&gt; Open Recent -&gt; Manage Projects..." count="1" />
+      <entry path="File -&gt; Open Recent -&gt; Reopen Project" count="3" />
+      <entry path="File -&gt; Open..." count="6" />
+      <entry path="File -&gt; Project Structure..." count="2" />
+      <entry path="File -&gt; Settings Repository…" count="1" />
+      <entry path="File -&gt; Settings..." count="17" />
+      <entry path="Help -&gt; Edit Custom Properties..." count="3" />
+      <entry path="Help -&gt; Edit Custom VM Options..." count="4" />
+      <entry path="Help -&gt; Show Log in File Manager" count="1" />
+      <entry path="Navigate -&gt; Call Hierarchy" count="1" />
+      <entry path="Run -&gt; Edit Configurations..." count="1" />
+      <entry path="VCS -&gt; Apply Patch..." count="1" />
+      <entry path="VCS -&gt; Checkout from Version Control -&gt; GitHub" count="1" />
+      <entry path="VCS -&gt; Commit" count="1" />
+      <entry path="VCS -&gt; Git -&gt; Remotes..." count="1" />
+      <entry path="VCS -&gt; Import into Version Control -&gt; Create Git Repository..." count="2" />
+      <entry path="VCS -&gt; Import into Version Control -&gt; Share Project on GitHub" count="7" />
+      <entry path="View -&gt; Active Editor -&gt; Show Whitespaces" count="4" />
+      <entry path="View -&gt; Active Editor -&gt; Use Soft Wraps" count="2" />
+      <entry path="View -&gt; Tool Windows -&gt; Structure" count="2" />
+      <entry path="View -&gt; Toolbar" count="1" />
+    </counts>
+  </component>
+</application>
